@@ -106,6 +106,38 @@ p {
   background-color: var(--background-color);
 }
 
+.name {
+  font-size: 40px;
+}
+
+.icons {
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.icon a {
+  cursor: pointer;
+  color: #050236;
+  font-size: 40px;
+}
+
+.icon a:hover {
+  color: #6c63ff;
+  transition: 0.3s ease-in-out all;
+}
+
+.form {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
 @media (max-with: 600px) {
   h2 {
     font-size: 38px;
