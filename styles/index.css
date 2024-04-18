@@ -2,6 +2,7 @@
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --background-color: #f8efec;
 }
 
 body {
@@ -36,6 +37,10 @@ p {
   display: flex;
   margin-top: 40px;
   justify-content: center;
+}
+
+.navbar {
+  background-color: var(--background-color);
 }
 
 .navigation-links a {
@@ -85,6 +90,20 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+.main {
+  margin-top: 0;
+}
+
+.main p {
+  font-weight: bold;
+  font-size: 36px;
+  font-family: "Poppins", sans-serif;
+}
+
+#container:hover {
+  background-color: var(--background-color);
 }
 
 @media (max-with: 600px) {
